@@ -1,5 +1,3 @@
-package com.m5.app.dao
-
 import java.nio.ByteBuffer
 
 import akka.NotUsed
