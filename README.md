@@ -6,7 +6,7 @@ This wrapper makes it possible.
 
 Usage: 
 
-val stream = mongo.gridfs.openDownloadStream(ObjectId(".."))
-val source: Source[ByteString, NotUsed] = GridfsSource(stream)
-source.runWith(Sink.foreach(println))
+val stream = mongo.gridfs.openDownloadStream(ObjectId(".."))  
+val source: Source[ByteString, NotUsed] = GridfsSource(stream)  
+source.runWith(Sink.foreach(println))  
 
